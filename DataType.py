@@ -48,15 +48,21 @@ print(f"add the number  {50 * 15}")
 print(f"my name is  {myName}")
 
 # Binary types 
-# bytes type 
-listOfNumber = [1,12,51,25,2,45,45,]
+# bytes type immutable
+listOfNumber = [1,12,51,25,2,45,45,255]
 b = bytes(listOfNumber)
 print(type(b))
 
 
-# bytearray 
+# bytearray mutable
 listOfNumber = [1,12,51,25,2,45,45,]
 b1 = bytearray(listOfNumber)
 b1[0]=10
 print(b1[0])
 print(type(b1))
+
+
+# none type data 
+x = None
+print(x)
+print(type(x))
