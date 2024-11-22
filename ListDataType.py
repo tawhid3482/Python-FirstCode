@@ -22,3 +22,29 @@ list2.insert(3,"pishe")
 print(list2)
 
 
+# Remove list items 
+
+li = [52,12,48,75,25]
+li.remove(12)
+print(li)
+
+
+# pop method removes the last item.
+
+lis = ['112','12','1']
+lis.pop(1)
+print(lis)
+
+# del method 
+list3 = ['ami', 'tumu','tum']
+del list3[0]
+print(list3)
+del list3
+# print(list3)
+
+# clear method 
+li.clear()
+print(li)
+
+del li 
+print(li)
