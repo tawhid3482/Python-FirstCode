@@ -1,6 +1,6 @@
 sets = {'i','am','a','dev'}
 
-sets.remove('i')
+sets.remove('i') # remove korar jinis jodi set a na thake taile error dibe but discard error dibe na 
 print(sets)
 
 sets.discard('a')
@@ -15,3 +15,4 @@ print(sets)
 
 del sets
 # print(sets)
+
